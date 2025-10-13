@@ -1,0 +1,185 @@
+ros-humble-pal-pro-gripper-controller-configuration (1.7.2-1jammy) jammy; urgency=high
+
+  * 100 hz to 1khz
+  * add update rate
+  * Contributors: Matteo Villani
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Wed, 08 Oct 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.7.1-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Mon, 08 Sep 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.7.0-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Fri, 05 Sep 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.6.1-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Tue, 05 Aug 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.6.0-1jammy) jammy; urgency=high
+
+  * letting the srv to be launched as module
+  * let not it spawn 2 same controllers
+  * update deps
+  * cleaning
+  * solving
+  * pal_pro_gripper_grasp_check implemented in launch file
+  * Contributors: Matteo Villani
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Fri, 01 Aug 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.5.2-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Thu, 26 Jun 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.5.1-1jammy) jammy; urgency=high
+
+  * Remove choices for end-effector side for triago compatibility
+  * Contributors: David ter Kuile
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Mon, 31 Mar 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.5.0-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Thu, 16 Jan 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.4.0-1jammy) jammy; urgency=high
+
+  * Set update_rate for joint_state_broadcaster
+  * Contributors: Noel Jimenez
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Tue, 05 Nov 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.3.0-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Thu, 19 Sep 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.2.0-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Fri, 09 Aug 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.1.0-1jammy) jammy; urgency=high
+
+  * Use controller_type from the controllers config
+  * Contributors: Noel Jimenez
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Tue, 06 Aug 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Fri, 19 Jul 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.0.5-1jammy) jammy; urgency=high
+
+  * Merge branch 'feat/controllers' into 'humble-devel'
+    Add jtc controller & joint_state_broadcaster
+    See merge request robots/pal_pro_gripper!14
+  * delete caster joints
+  * add joint_broadcaster controller directly in the standalone launch file
+  * add standalone controller launch file
+  * add controller into gazebo simulation
+  * add joint_state_broadcaster config
+  * Contributors: Aina Irisarri, davidterkuile
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Tue, 23 Apr 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.0.4-1jammy) jammy; urgency=high
+
+  * Merge branch 'dtk/fix/restructure' into 'humble-devel'
+    Dtk/fix/restructure
+    See merge request robots/pal_pro_gripper!13
+  * Update copyright to 2024
+  * Rename to pal_pro_gripper_controller.launch.py
+  * Restructure launch file controller_configurations
+  * Contributors: David ter Kuile, Noel Jimenez, davidterkuile
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Thu, 21 Mar 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.0.3-1jammy) jammy; urgency=high
+
+  * Merge branch 'dtk/fix/add-linter-tests' into 'humble-devel'
+    Dtk/fix/add linter tests
+    See merge request robots/pal_pro_gripper!11
+  * Add tests packages to package.xml
+  * Add linter tests in CMakeLists.txt
+  * Contributors: David ter Kuile, davidterkuile
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Mon, 11 Mar 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Wed, 06 Mar 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.0.1-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Wed, 31 Jan 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (1.0.0-1jammy) jammy; urgency=high
+
+  * Merge branch 'ros2-migration' into 'humble-devel'
+    Ros2 migration
+    See merge request robots/pal_pro_gripper!5
+  * delete type of the controller in the yaml
+  * add gazebo_controller_manager_cfg
+  * add missing exc_depends
+  * update to 3.8 the cmake_minimum_required Version
+  * clean package.xml file
+  * clean CMakeLists.txt and package of contr.conf.
+  * delete not necessary dependencies
+  * fix yaml file
+  * controller_configuration pkg migration
+  * migration of CMakeLists.txt and package.xml to ros2
+  * Contributors: Adria Roig, ileniaperrella
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Mon, 29 Jan 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (0.0.3-1jammy) jammy; urgency=high
+
+  * Merge branch 'feat/use_urdf_utils' into 'main'
+    Feat/use urdf utils
+    See merge request robots/pal_pro_gripper!4
+  * Remove gazebo package + tune grasp service
+  * Contributors: Jordan Palacios, thomaspeyrucain
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Mon, 23 Oct 2023 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (0.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Tue, 11 Jul 2023 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-controller-configuration (0.0.1-1jammy) jammy; urgency=high
+
+  * Merge branch 'create-urdf' into 'main'
+    Create urdf
+    See merge request robots/pal_pro_gripper!1
+  * add gripper wrapper and grasping service
+  * Add controller_config and controller_config gazebo
+  * Contributors: David ter Kuile, davidterkuile
+
+ -- David ter Kuile <david.terkuile@pal-robotics.com>  Mon, 03 Jul 2023 00:00:00 -0000
+
+
