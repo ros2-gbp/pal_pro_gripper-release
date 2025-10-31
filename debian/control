@@ -1,0 +1,12 @@
+Source: ros-humble-pal-pro-gripper-bringup
+Section: misc
+Priority: optional
+Maintainer: Oscar Martinez <oscar.martinez@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-pal-pro-gripper-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-joint-state-broadcaster, ros-humble-joint-trajectory-controller, ros-humble-pal-pro-gripper-controller-configuration, ros-humble-pal-pro-gripper-description, ros-humble-ros-workspace
+Description: Launch files to upload the robot description and start the controllers
