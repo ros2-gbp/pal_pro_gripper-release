@@ -1,0 +1,167 @@
+ros-humble-pal-pro-gripper-wrapper (1.8.0-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Wed, 15 Oct 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.7.2-1jammy) jammy; urgency=high
+
+  * for the pipeline :/
+  * change topic to retrieve joint position
+  * Contributors: Matteo Villani
+
+ -- user <matteovillani@pal-robotics.com>  Wed, 08 Oct 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.7.1-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Mon, 08 Sep 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.7.0-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Fri, 05 Sep 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.6.1-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Tue, 05 Aug 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.6.0-1jammy) jammy; urgency=high
+
+  * Update package.xml
+  * logic managed by gripper_grasper.launch in tiago_pro_bringup
+  * using the node name for topic/srvs names
+  * publish more often
+  * adding launc
+  * letting the srv to be launched as module
+  * more specific names
+  * adding timer to publish state
+  * adding rate param
+  * clean code
+  * comments
+  * update deps
+  * let callbacks run concurrently
+  * tuned params
+  * improving params handling
+  * cleaning
+  * setting up as python pkg
+  * Contributors: David ter Kuile, Matteo Villani
+
+ -- user <matteovillani@pal-robotics.com>  Fri, 01 Aug 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.5.2-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Thu, 26 Jun 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.5.1-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Mon, 31 Mar 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.5.0-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Thu, 16 Jan 2025 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.4.0-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Tue, 05 Nov 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.3.0-1jammy) jammy; urgency=high
+
+  * Gripper std and suggested changes
+  * Contributors: oscarmartinez
+
+ -- user <matteovillani@pal-robotics.com>  Thu, 19 Sep 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.2.0-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Fri, 09 Aug 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.1.0-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Tue, 06 Aug 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Fri, 19 Jul 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Tue, 23 Apr 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Thu, 21 Mar 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.0.3-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Mon, 11 Mar 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Wed, 06 Mar 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.0.1-1jammy) jammy; urgency=high
+
+
+
+ -- user <matteovillani@pal-robotics.com>  Wed, 31 Jan 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (1.0.0-1jammy) jammy; urgency=high
+
+  * migration of CMakeLists.txt and package.xml to ros2
+  * Contributors: ileniaperrella
+
+ -- user <matteovillani@pal-robotics.com>  Mon, 29 Jan 2024 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (0.0.3-1jammy) jammy; urgency=high
+
+  * Updated changelogs
+  * Remove gazebo package + tune grasp service
+  * Contributors: Jordan Palacios, thomaspeyrucain
+
+ -- user <matteovillani@pal-robotics.com>  Mon, 23 Oct 2023 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (0.0.2-1jammy) jammy; urgency=high
+
+  * Update Changelog
+  * Contributors: David ter Kuile
+
+ -- user <matteovillani@pal-robotics.com>  Tue, 11 Jul 2023 00:00:00 -0000
+
+ros-humble-pal-pro-gripper-wrapper (0.0.1-1jammy) jammy; urgency=high
+
+  * Generate changelog
+  * Update mimicjoint and typos
+  * add gripper wrapper and grasping service
+  * Add controller_config and controller_config gazebo
+  * Contributors: David ter Kuile
+
+ -- user <matteovillani@pal-robotics.com>  Mon, 03 Jul 2023 00:00:00 -0000
+
+
