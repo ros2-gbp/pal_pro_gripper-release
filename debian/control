@@ -1,0 +1,12 @@
+Source: ros-humble-pal-pro-gripper
+Section: misc
+Priority: optional
+Maintainer: David ter Kuile <david.terkuile@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-pal-pro-gripper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-pal-pro-gripper-controller-configuration, ros-humble-pal-pro-gripper-description, ros-humble-ros-workspace
+Description: The pal_pro_gripper package
