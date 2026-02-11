@@ -2,6 +2,34 @@
 Changelog for package pal_pro_gripper_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.11.3 (2026-02-09)
+-------------------
+
+1.11.2 (2025-12-17)
+-------------------
+
+1.11.1 (2025-12-01)
+-------------------
+
+1.11.0 (2025-11-28)
+-------------------
+* fix xacro
+* Fixing urdf and ros2control
+* changing limits joints
+* Fixing urdf and ros2control
+* Contributors: susannamastromauro
+
+1.10.0 (2025-11-12)
+-------------------
+
+1.9.0 (2025-11-05)
+------------------
+* Merge branch 'tpe/add_open_loop' into 'humble-devel'
+  Add back openloop to controller
+  See merge request robots/pal_pro_gripper!37
+* Add back openloop to controller
+* Contributors: thomas.peyrucain, thomaspeyrucain
+
 1.8.0 (2025-10-15)
 ------------------
 
