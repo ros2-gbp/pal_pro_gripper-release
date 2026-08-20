@@ -1,3 +1,32 @@
+## pal_pro_gripper (humble) - 1.12.6-1
+
+The packages in the `pal_pro_gripper` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble pal_pro_gripper -y` on `Thu, 20 Aug 2026 14:31:19 -0000`
+
+These packages were released:
+- `pal_pro_gripper`
+- `pal_pro_gripper_bringup`
+- `pal_pro_gripper_controller_configuration`
+- `pal_pro_gripper_description`
+- `pal_pro_gripper_simulation`
+- `pal_pro_gripper_wrapper`
+
+Version of package(s) in repository `pal_pro_gripper`:
+
+- upstream repository: https://github.com/pal-robotics/pal_pro_gripper.git
+- release repository: https://github.com/ros2-gbp/pal_pro_gripper-release.git
+- rosdistro version: `1.12.5-1`
+- old version: `1.12.5-1`
+- new version: `1.12.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## pal_pro_gripper (humble) - 1.12.5-1
 
 The packages in the `pal_pro_gripper` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble -y pal_pro_gripper` on `Tue, 23 Jun 2026 11:03:08 -0000`
